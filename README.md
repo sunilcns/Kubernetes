@@ -78,35 +78,35 @@ Common statuses and causes:
 kubectl scale deployment product-deployment --replicas=3
 
 
-Purpose                        | Command                                         |
------------------------------- | ----------------------------------------------- |
-List pods                      | `kubectl get pods`                              |
-List pods in namespace         | `kubectl get pods -n dev`                       |
-Detailed pod info              | `kubectl get pods -o wide`                      |
-Describe pod                   | `kubectl describe pod <pod-name>`               |
-View pod logs                  | `kubectl logs <pod-name>`                       |
-Follow live logs               | `kubectl logs -f <pod-name>`                    |
-Enter pod shell                | `kubectl exec -it <pod-name> -- /bin/bash`      |
-Create pod quickly             | `kubectl run nginx --image=nginx`               |
-Delete pod                     | `kubectl delete pod <pod-name>`                 |
-Create deployment              | `kubectl create deployment nginx --image=nginx` |
-List deployments               | `kubectl get deployments`                       |
-Scale deployment               | `kubectl scale deployment nginx --replicas=3`   |
-Delete deployment              | `kubectl delete deployment nginx`               |
-Apply YAML file                | `kubectl apply -f app.yaml`                     |
-Delete YAML resources          | `kubectl delete -f app.yaml`                    |
-List services                  | `kubectl get svc`                               |
-Create namespace               | `kubectl create namespace dev`                  |
-List namespaces                | `kubectl get ns`                                |
-Get all resources              | `kubectl get all`                               |
-Get all resources in namespace | `kubectl get all -n dev`                        |
+List pods	kubectl get pods
+List pods in namespace	kubectl get pods -n dev
+Detailed pod info	kubectl get pods -o wide
+Describe pod	kubectl describe pod <pod-name>
+View pod logs	kubectl logs <pod-name>
+Follow live logs	kubectl logs -f <pod-name>
+Enter pod shell	kubectl exec -it <pod-name> -- /bin/bash
+Create pod quickly	kubectl run nginx --image=nginx
+Delete pod	kubectl delete pod <pod-name>
+Create deployment	kubectl create deployment nginx --image=nginx
+List deployments	kubectl get deployments
+Scale deployment	kubectl scale deployment nginx --replicas=3
+Delete deployment	kubectl delete deployment nginx
+Apply YAML file	kubectl apply -f app.yaml
+Delete YAML resources	kubectl delete -f app.yaml
+List services	kubectl get svc
+Create namespace	kubectl create namespace dev
+List namespaces	kubectl get ns
+Get all resources	kubectl get all
+Get all resources in namespace	kubectl get all -n dev
+Show labels	kubectl get pods --show-labels
+Filter by label	kubectl get pods -l app=web
+Check events	kubectl get events
+Generate YAML	kubectl run nginx --image=nginx --dry-run=client -o yaml
+See ConfigMaps	kubectl get cm
+See Secrets	kubectl get secrets
+Switch default namespace	kubectl config set-context --current --namespace=dev
+
+<img width="1031" height="649" alt="image" src="https://github.com/user-attachments/assets/ed8f9451-8b50-4cf5-8520-5488b3586665" />
 
 
-------------------------       | ---------------------------------------------------------- |
-Show labels                    | `kubectl get pods --show-labels`                           |
-Filter by label                | `kubectl get pods -l app=web`                              |
-Check events                   | `kubectl get events`                                       |
-Generate YAML                  | `kubectl run nginx --image=nginx --dry-run=client -o yaml` |
-See ConfigMaps                 | `kubectl get cm`                                           |
-See Secrets                    | `kubectl get secrets`                                      |
-Switch default namespace       | `kubectl config set-context --current --namespace=dev`     |
+

@@ -29,6 +29,9 @@ v1.26 = your canary
 25% of users = the "test miners"
 75% on v1.25 = safely waiting
 
+
+<img width="832" height="473" alt="image" src="https://github.com/user-attachments/assets/0f4b78b3-96e7-4141-aa9e-85f1eda6d9d7" />
+
 <img width="752" height="551" alt="image" src="https://github.com/user-attachments/assets/d5ad9c12-ebdd-424d-9ef9-07ba41543d9e" />
 
 

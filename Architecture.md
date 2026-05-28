@@ -1,4 +1,6 @@
 Kubernetes Architecture Overview — Complete README
+https://medium.com/@saimanasak/understanding-kubernetes-architecture-add159d720fd
+
 1. Introduction
 Kubernetes (K8s) is an open-source container orchestration platform used to:
 •	Deploy containers
